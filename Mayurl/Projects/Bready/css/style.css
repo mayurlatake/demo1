@@ -1,0 +1,87 @@
+body{
+    font-family: 'Lora', serif;
+}
+.bg-yellow{
+    background-color: #cd9b33 !important;
+}
+.text-yellow{
+    color: #cd9b33 !important;
+}
+.bg-grey{
+    background-color: #767676;
+}
+.text-grey{
+    color: #767676;
+}
+.text-darkgrey{
+    color: #3c3c3c;
+}
+.bg-black{
+    background-color: #222328e6;
+}
+.bg-lightgrey{
+    background-color: #c7c7c7;
+}
+.text-lightgrey{
+    color: #c7c7c7;
+}
+.b1:hover{
+    background-color: #cd9b33;
+    color: white;
+}
+.d3:hover{
+    color: #cd9b33;
+}
+#navbar img{
+    width: 160px;
+    height: 120px; 
+}
+.head1{
+    font-family: 'Kaushan Script', cursive;
+}
+.ab1 img{
+    width: 90px;
+    height: 25px;
+}
+.ab2 img{
+    width: 100px;
+    height: 100px;
+    /* margin: 0px 0px 0px 150px; */
+}
+#deal{
+    background-image: url(../images/product-home.png);
+    background-size: 100% 100%;
+}
+#manager{
+    background-image: url(../images/testimonials.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+hr{
+    color: #cd9b33;
+    height: 50px;
+}
+.m1{
+    opacity: 0.9;
+}
+.m2{
+    opacity: 0.8;
+}
+#delivery{
+    background-image: url(../images/delivery-form.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#footer{
+    background-color: #22202e;
+}
+#footer img{
+    width: 240px;
+    height: 180px;
+}
+.fa-cc-mastercard,.fa-cc-paypal,.fa-cc-visa,.fa-facebook-f,.fa-twitter,.fa-instagram{
+    font-size: 25px;
+}
+#subfooter{
+    background-color: black;
+}

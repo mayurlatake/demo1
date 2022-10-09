@@ -1,0 +1,456 @@
+* {
+    font-family: "Montserrat", Tahoma, sans-serif
+}
+
+body {
+    background-color: #e9e9e9;
+}
+
+.root {
+    --maincolor: #1C1C1C;
+}
+
+.heroUnit {
+    background: url(../images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 53% 10%;
+}
+
+.heroUnit strong {
+    font-size: 7px;
+    color: chocolate;
+}
+
+.heroUnit h1 {
+    font-size: 13px;
+    font-weight: 700;
+    color: chocolate;
+}
+
+.heroUnit p {
+    font-size: 3px;
+    color: #fff;
+}
+
+.heroUnit a {
+    text-decoration: none;
+    font-size: 3px;
+    border: 1px solid green;
+    padding: 5px 10px;
+    color: chocolate;
+}
+
+.heroUnit hr {
+    background-color: black;
+    margin: 0;
+}
+
+.popular h2,
+.TRAINERS h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.popular hr,
+.TRAINERS hr {
+    background-color: white;
+    margin: 0 0 10px;
+}
+
+.popular p,
+.TRAINERS p {
+    color: #868686;
+    font-size: 12px;
+}
+
+.classes {
+    padding: 30px;
+    background-color: #1C1C1C;
+}
+
+.COMBAT figcaption .p1,
+.FITNESS figcaption .p1,
+.ZUMBA figcaption .p1 {
+    background-color: #1C1C1C;
+    color: white;
+    position: relative;
+    top: -38px;
+    padding: 10px 7px;
+    font-size: 12px;
+    margin: 0 70px;
+}
+
+.COMBAT figcaption h3,
+.FITNESS figcaption h3,
+.ZUMBA figcaption h3 {
+    color: var(--maincolor);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.COMBAT figcaption hr,
+.FITNESS figcaption hr,
+.ZUMBA figcaption hr {
+    background-color: black;
+    margin: 10px auto;
+}
+
+.COMBAT figcaption p,
+.FITNESS figcaption p,
+.ZUMBA figcaption p {
+    color: #7a7a7a;
+    font-size: 14px;
+    padding: 0px 15px;
+    margin-bottom: 30px;
+}
+
+.COMBAT figcaption,
+.FITNESS figcaption,
+.ZUMBA figcaption {
+    background-color: white;
+    padding: 0 10px 10px;
+}
+
+.FITNESS,
+.ZUMBA {
+    display: none;
+}
+
+.TRAINERS {
+    padding: 30px;
+    background-color: #87BD65;
+}
+
+.TRAINERS h2 {
+    color: var(--maincolor);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.TRAINERS hr {
+    background-color: black;
+}
+
+.TRAINERS p {
+    color: var(--maincolor);
+}
+
+.DOE h2 {
+    color: var(--maincolor);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.DOE hr {
+    background-color: black;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.DOE p {
+    color: #7a7a7a;
+    font-size: 14px;
+}
+
+.DOE {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.say {
+    background-color: white;
+    padding: 30px 10px;
+    margin-top: 20px;
+}
+
+.say h2 {
+    color: var(--maincolor);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.say hr {
+    background-color: black;
+}
+
+.say .quote p {
+    color: #7a7a7a;
+    font-size: 20px;
+    padding: 5px 30px;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.say .quote p::before {
+    color: #b6c4cb;
+    content: "201C" !important;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.say .quote p::after {
+    color: #b6c4cb;
+    content: "201D" !important;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.recent {
+    padding: 30px;
+    background-color: #1C1C1C;
+}
+
+.recent h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.recent hr {
+    background-color: white;
+    margin: 0 0 10px;
+}
+
+.running .p1 {
+    background-color: #1C1C1C;
+    color: white;
+    position: relative;
+    top: -38px;
+    padding: 10px 7px;
+    font-size: 12px;
+    margin: 0 70px;
+}
+
+.do h2 {
+    color: var(--maincolor);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.do hr {
+    background-color: black;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.do p {
+    color: #7a7a7a;
+    font-size: 14px;
+}
+
+.do {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.QUICK,
+.YEAR {
+    background-color: #87BD65;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+.QUICK h3,
+.YEAR h3,
+.NOV h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.QUICK i,
+.YEAR i,
+.NOV i {
+    background-color: #87BD65;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: -25px;
+    padding: 10px;
+}
+
+.NOV {
+    background-color: #91CE6B;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    position: relative;
+    top: -41px
+}
+
+.NOV i {
+    background-color: #91CE6B
+}
+
+.YEAR {
+    position: relative;
+    top: -121px
+}
+
+.discount {
+    background-color: black
+}
+
+.foot1 h3,
+.foot2 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white
+}
+
+.foot1 hr,
+.foot2 hr {
+    background-color: #434641;
+    ;
+    margin: 10px 0
+}
+
+.foot1 ul,
+.foot2 ul {
+    list-style-type: none
+}
+
+.foot1 ul li,
+.foot2 p,
+.foot2 a {
+    color: #555855;
+    font-size: 13px
+}
+
+.foot1 ul li a {
+    color: #999;
+    font-size: 13px
+}
+
+.foot2 .p-1 {
+    background-color: #999;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    text-align: center
+}
+
+.foot2 .p-1 a {
+    position: relative;
+    top: 5px
+}
+
+@media (min-width:768px) {
+    .heroUnit strong {
+        font-size: 19px;
+        font-weight: 800
+    }
+
+    .heroUnit h1 {
+        font-size: 37px;
+        font-weight: 800
+    }
+
+    .heroUnit p {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 10px
+    }
+
+    .heroUnit a {
+        font-size: 9px
+    }
+
+    .FITNESS {
+        display: inline-block
+    }
+
+    .classes {
+        height: 383px
+    }
+
+    .TRAINERS,
+    .classes {
+        padding: 16px
+    }
+
+    .TRAINERS {
+        height: 200px
+    }
+
+    .DOE,
+    .do {
+        margin-top: 0
+    }
+
+    .do,
+    .recent {
+        height: 195px;
+        overflow: hidden
+    }
+
+    .recent {
+        padding: 10px
+    }
+
+    .DOE {
+        height: 200px
+    }
+
+    .QUICK,
+    .YEAR {
+        margin-top: 0;
+        height: 135px
+    }
+
+    .YEAR {
+        top: 0
+    }
+
+    .NOV {
+        top: -40px;
+        height: 150px
+    }
+}
+
+@media (min-width:1024px) {
+    .heroUnit {
+        height: 100vh
+    }
+
+    .mid {
+        position: relative;
+        top: 100px
+    }
+
+    .heroUnit strong {
+        font-size: 30px
+    }
+
+    .heroUnit h1 {
+        font-size: 57px
+    }
+
+    .heroUnit p {
+        font-size: 15px
+    }
+
+    .heroUnit a {
+        font-size: 14px
+    }
+
+    .ZUMBA {
+        display: inline-block
+    }
+
+    .classes {
+        height: 395px
+    }
+
+    .TRAINERS,
+    .DOE {
+        height: 193px
+    }
+
+    .do,
+    .recent {
+        height: 188px
+    }
+}

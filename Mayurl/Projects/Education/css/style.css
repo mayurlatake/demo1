@@ -1,0 +1,87 @@
+.bg-blue{
+    background-color: #29293A;
+}
+.bg-orange{
+    background-color: #F9AD3D;
+}
+.text-orange{
+    color: #F9AD3D;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.d1:hover{
+    background-color: #fa9046; 
+}
+.d2:hover{
+    color: #fa9046;
+}
+.fa-search{
+    color: white;
+    margin: 14px 30px;
+}
+.p1{
+    color: #74757F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    word-spacing: 3px;
+}
+.f1{
+    color: #74757F;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 15px;
+    letter-spacing: 1px; 
+}
+
+hr{
+    background-color: white;
+}
+#menu img{
+    filter: brightness(80%)
+}
+a:hover{
+   color: #F9AD3D; 
+}
+#offer{
+    background-color: #F9AD3D;
+}
+.d3:hover{
+    background-color: #fa9046;
+    color: white;
+}
+#offer{
+    background: linear-gradient(#D57E4A,#7E5454,#513F59);
+}
+#services1{
+    background: linear-gradient(#D57E4A,#7E5454,#513F59); 
+}
+#footer{
+    background: linear-gradient(#D57E4A,#7E5454,#513F59); 
+
+}
+#contact{
+    background-color: #F5F6FA;
+}
+#professionals{
+    background: linear-gradient(to right,#534059,#9E6450,#D57E4A);
+}
+
+@media only screen and (min-width:1024px){
+    #services img{
+        height: 390px;
+    }
+    #services1 img{
+        height: 500px;
+    }
+}
+@media only screen and (min-width:1326px){
+#menu h1{
+    font-size: 80px;
+}
+#services img{
+    height: 380px;
+}
+#services1 img{
+    height: 600px;
+}
+}

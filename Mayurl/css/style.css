@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Oswald:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Oswald:wght@300;700&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.toggle {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: #000 url(../Images/menu.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.toggle.active {
+    background: #000 url(../Images/cross.ppng.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sidebar {
+    position: fixed;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 40px;
+    z-index: 100;
+    right: -100%;
+    min-height: 100%;
+    min-width: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 10px 0px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sidebar ul li a:hover {
+    color: #00bcd4;
+}
+
+#particles-js {
+    min-height: 100vh;
+    background-color: rgb(19, 16, 16);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    color: #fff;
+    background-color: black;
+    overflow: hidden;
+}
+
+#topnav {
+    display: flex;
+    text-align: center;
+}
+
+.infocontainer {
+    margin: 110px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.main .infocontainer .devinfo {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    padding: 0px 20px;
+}
+
+.hello {
+    font-size: 3.5em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+}
+
+.about {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.moreabout {
+    font-size: 1.2em;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.buttons a {
+    position: relative;
+    background-color: gray;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttons a:hover {
+    letter-spacing: 4px;
+    border: 4px solid rgb(255, 136, 0);
+    box-shadow: 0 0 30px #fd990e;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url(../Images/about\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.aboutme {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2.5em;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.aboutme span {
+    color: #ff0000;
+    font-weight: 300;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    width: 80vw;
+    display: flex;
+}
+
+.aboutimage img {
+    height: 60vh;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.aboutInfo {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.aboutInfo h2 {
+    padding: 3px;
+    font-size: 2em;
+}
+
+.aboutInfo h2 span {
+    font-family: 'Source Code Pro', monospace;
+    color: #ff0000;
+    font-weight: 600;
+}
+
+.aboutInfo p {
+    padding: 3px;
+    word-spacing: 2px;
+    margin-bottom: 5px;
+    line-height: 1.5em;
+}
+
+.aboutInfo h3 {
+    padding: 2px 3px;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 1em;
+}
+
+.aboutInfo h3 span {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.EducationSection {
+    background-color: #6c757d;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.EducationSection .eduname {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.EducationSection .mark {
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.EducationSection .mark h3 {
+    text-align: right;
+    color: black;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.EducationSection .eduhistory {
+    padding: 0px 31px;
+    margin-bottom: 48px;
+}
+
+.EducationSection .eduhistory .qualify {
+    position: relative;
+    padding: 20px 80px;
+    color: #000;
+    margin: 20px 0;
+    background-color: #6c757d;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+        15px 15px 15px rgb(33, 33, 33),
+        inset -15px -15px 15px rgba(255, 255, 255, 0.2),
+        inset 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+.EducationSection .eduhistory .qualify h3 {
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.EducationSection .eduhistory .qualify h2 {
+    font-size: 21px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 3px;
+}
+
+.EducationSection .eduhistory .qualify h4 {
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 3px;
+    font-weight: 100;
+}
+
+.skillname {
+    text-align: center;
+    background: #101010;
+    padding: 50px 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.projectSection {
+    background-color: #777;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.projectSection .proname {
+    text-align: center;
+    font-weight: 700;
+    margin: 50px 0;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.project-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container .group {
+    position: relative;
+    width: 620px;
+    height: 280px;
+    margin: 10px;
+    box-sizing: border-box;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.project-container .group .imgbox {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-container .group .imgbox img {
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.project-container .group:hover .imgbox img {
+    transform: scale(1.2);
+}
+
+.project-container .group .details {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: rgba(0, 0, 0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container .group:hover .details {
+    transform: scaleY(1);
+}
+
+.project-container .group .details .view {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    background: transparent;
+}
+
+.project-container .group .details .view h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    background: transparent;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.project-container .group .details .view a {
+    position: relative;
+    background-color: gray;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project-container .group .details .view a:hover {
+    letter-spacing: 4px;
+    border: 4px solid rgb(0, 255, 30);
+    box-shadow: 0 0 30px #0efd16;
+}
+
+.project-container .group .details .view a span {
+    background-color: gray;
+}
+
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contactSection .contactheading {
+    color: #ff0000;
+}
+
+.contactSection .contactform {
+    padding: 10px 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 70px;
+    color: #fff;
+    border: none;
+
+}
+
+.contactSection .contactform .contname {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactSection .contactform .contactname {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.contactSection .contactform .contactname label {
+    padding-bottom: 5px;
+}
+
+.contactSection .contactform input {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Source Code Pro', monospace;
+    width: 559px;
+    color: aqua;
+    border: #777 1px solid;
+    background: transparent;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.contactSection .contactform .contactnumber {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.contactSection .contactform .contactnumber label {
+    padding-bottom: 5px;
+}
+
+.contactSection .contactform .contactnumber input {
+    padding: 10px;
+    border: none;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 3px;
+    border: #6c757d 1px solid;
+    margin-bottom: 10px;
+}
+
+.contactSection .contactform .contactemail {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.contactSection .contactform .contactemail label {
+    padding-bottom: 5px;
+}
+
+.contactSection .contactform .contactemail input {
+    padding: 10px;
+    border: none;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 3px;
+    border: #000 1px solid;
+    margin-bottom: 10px;
+}
+
+.contactSection .contactform .contactmessage {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.contactSection .contactform .contactmessage label {
+    padding-bottom: 5px;
+}
+
+.contactSection .contactform .contactmessage textarea {
+    padding: 10px;
+    border: none;
+    border: #6c757d 1px solid;
+    background: transparent;
+    border-radius: 3px;
+    margin-bottom: 20px;
+} 
+
+.contactSection .contactheading {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.contactSection .contactheading span {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn{
+    margin-top: 25px;
+    outline: none;
+}
+
+.contactSection a {
+    background: gray;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 30px;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactSection a:hover {
+    letter-spacing: 4px;
+    border: 4px solid rgb(255, 136, 0);
+    box-shadow: 0 0 30px #fd9d0e;
+}
+
+.skill-container {
+    margin-top: -1px;
+}
+
+.error {
+    color: red;
+}
+
+.form-cntrl {
+    width: 559px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: aqua;
+    background-color: transparent;
+    border: 1px solid #777;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
